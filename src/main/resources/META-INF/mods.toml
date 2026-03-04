@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+    modId="capslockcopy"
+    version="1.0.0"
+    displayName="CapsLock Copy"
+    description="Press CapsLock while looking at a player to copy their nickname."
+    authors="RuleCore"
+
+[[dependencies.capslockcopy]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36.1.2,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.capslockcopy]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="CLIENT"
